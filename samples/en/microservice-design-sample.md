@@ -13,10 +13,10 @@
 ## 1. Overview
 
 ### 1.1 Purpose
-The User Relationship Service manages all friend connections, group memberships, and relationship history within Recerdo. It is the core social graph engine that powers the Viejo App's ability to help users reconnect with old friends and maintain close-knit groups.
+The User Relationship Service manages all friend connections, group memberships, and relationship history within SampleApp. It is the core social graph engine that powers SampleApp's ability to help users reconnect with old friends and maintain close-knit groups.
 
 ### 1.2 Business Context
-Recerdo's primary value proposition is helping users rediscover and strengthen relationships from their past. This service enables friend request workflows, group creation/management, and tracks how relationships evolve over time — a key differentiator from conventional social media platforms.
+SampleApp's primary value proposition is helping users rediscover and strengthen relationships from their past. This service enables friend request workflows, group creation/management, and tracks how relationships evolve over time — a key differentiator from conventional social media platforms.
 
 ### 1.3 Scope
 **In scope**: Friend requests, friend list management, group CRUD, group membership, relationship history timeline, mutual friend discovery, friend suggestions based on shared groups.
@@ -438,7 +438,7 @@ ArgoCD automatic rollback if health checks fail within 5 minutes of deployment. 
 
 ## 13. References
 
-- [Recerdo System Architecture Overview](../architecture-overview.md)
+- [SampleApp System Architecture Overview](../architecture-overview.md)
 - [Profile Service Design Doc](../profile-service-design.md)
 - [OpenAPI Spec — User Relationship Service](../api-specs/relationship-service.yaml)
 - [Kafka Topic Registry](../infrastructure/kafka-topics.md)

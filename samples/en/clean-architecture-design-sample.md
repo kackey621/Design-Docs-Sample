@@ -13,10 +13,10 @@
 ## 1. Overview
 
 ### 1.1 Purpose
-The Memory Sharing Module handles the creation, storage, and sharing of memories (photos, stories, and moments) within Recerdo friend groups. It is the emotional core of the Viejo App, enabling users to share nostalgic content with the people who matter most.
+The Memory Sharing Module handles the creation, storage, and sharing of memories (photos, stories, and moments) within SampleApp friend groups. It is the emotional core of SampleApp, enabling users to share nostalgic content with the people who matter most.
 
 ### 1.2 Business Context
-Recerdo differentiates itself from mainstream social media by focusing on shared memories among close-knit groups rather than public broadcasting. This module powers the primary engagement loop: users create memories, share them with specific groups, and receive reactions from old friends — reinforcing emotional bonds.
+SampleApp differentiates itself from mainstream social media by focusing on shared memories among close-knit groups rather than public broadcasting. This module powers the primary engagement loop: users create memories, share them with specific groups, and receive reactions from old friends — reinforcing emotional bonds.
 
 ### 1.3 Architecture Principles
 This document follows **Clean Architecture** (Robert C. Martin) principles:
@@ -143,7 +143,7 @@ export class Memory {
 ### 4.2 Use Case Detail
 
 #### CreateMemory
-- **Actor**: Authenticated Recerdo user
+- **Actor**: Authenticated SampleApp user
 - **Preconditions**: User is authenticated; media files (if any) are already uploaded to temporary storage
 - **Flow**:
   1. Validate input DTO (content length, media URL formats)
@@ -159,7 +159,7 @@ export class Memory {
   - Storage failure → `StorageError` (media cleanup attempted)
 
 #### ShareWithGroup
-- **Actor**: Authenticated Recerdo user (must be memory author)
+- **Actor**: Authenticated SampleApp user (must be memory author)
 - **Preconditions**: Memory exists; user is the author; user is a member of the target group
 - **Flow**:
   1. Load memory via `MemoryRepositoryPort`
@@ -564,7 +564,7 @@ Redis caches group memory lists (TTL: 5 minutes). Cache invalidation on new shar
 ## 12. Migration Plan
 
 ### 12.1 Current State
-No existing memory system — this is a greenfield module within the Recerdo platform.
+No existing memory system — this is a greenfield module within the SampleApp platform.
 
 ### 12.2 Target State
 Fully operational Memory Sharing Module with all five use cases, integrated with User Relationship Service and deployed on Kubernetes.
@@ -595,5 +595,5 @@ Fully operational Memory Sharing Module with all five use cases, integrated with
 
 - [Clean Architecture — Robert C. Martin](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - [User Relationship Service Design Doc](../microservice-design-sample.md)
-- [Recerdo System Architecture Overview](../../architecture-overview.md)
+- [SampleApp System Architecture Overview](../../architecture-overview.md)
 - [Memory Service OpenAPI Spec](../../api-specs/memory-service.yaml)

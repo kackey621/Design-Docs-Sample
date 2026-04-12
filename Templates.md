@@ -50,7 +50,7 @@ This document provides an overview of all available design document templates, w
 
 ## Samples
 
-Filled-in examples using the Recerdo service are available in `samples/`. See [Sample.md](Sample.md) for details.
+Filled-in examples using the the service are available in `samples/`. See [Sample.md](Sample.md) for details.
 
 ## Word Document Versions
 

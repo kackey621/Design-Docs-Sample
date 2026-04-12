@@ -1,6 +1,6 @@
-# Recerdo Design Docs
+# Design Docs
 
-Design document templates for the **Recerdo** service — a social media platform (Viejo App) for reconnecting with old friends and close-knit groups.
+Design document templates for the service — a social media platform (Viejo App) for reconnecting with old friends and close-knit groups.
 
 ## Repository Structure
 
@@ -41,7 +41,7 @@ Design document templates for the **Recerdo** service — a social media platfor
 1. **Choose a template** from `templates/en/` or `templates/ja/`
 2. **Copy** the template into your project documentation folder
 3. **Fill in** each section following the guidance in brackets `[...]`
-4. **Refer to samples** in `samples/` for concrete examples based on the Recerdo service
+4. **Refer to samples** in `samples/` for concrete examples based on the the service
 5. **Word versions** are available in `docx/` for offline editing and formal review
 
 ## Templates
