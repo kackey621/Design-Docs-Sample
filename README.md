@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f965f47f-947c-4ea0-9f9a-042bc2462369/deploy-status)](https://app.netlify.com/projects/design-doc-generator/deploys)
+
 # Design Docs
 
 Design document templates for the service — a social media platform (Viejo App) for reconnecting with old friends and close-knit groups.
