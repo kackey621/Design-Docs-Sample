@@ -70,7 +70,10 @@ body {
   flex-wrap: wrap;
 }
 .app-footer a { color: var(--clr-muted); text-decoration: underline; }
-.footer-netlify { font-weight: 500; }
+.footer-netlify { font-weight: 600; color: var(--clr-primary) !important; text-decoration: none !important; }
+.footer-netlify:hover { text-decoration: underline !important; }
+.footer-links { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+.footer-sep { color: var(--clr-border); }
 
 /* ── Step Indicator ───────────────────────────── */
 .step-indicator {

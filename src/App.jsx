@@ -89,13 +89,37 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <span>
-          {lang === 'ja'
-            ? 'MIT ライセンス · '
-            : 'MIT License · '}
-          <a href="https://github.com/kackey621/Design-Docs-Sample" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </span>
-        <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer" className="footer-netlify">
+        <div className="footer-links">
+          <a
+            href="https://github.com/kackey621/Design-Docs-Sample/blob/main/LICENSE"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {lang === 'ja' ? 'MIT ライセンス' : 'MIT License'}
+          </a>
+          <span className="footer-sep">·</span>
+          <a
+            href="https://github.com/kackey621/Design-Docs-Sample/blob/main/CODE_OF_CONDUCT.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {lang === 'ja' ? '行動規範' : 'Code of Conduct'}
+          </a>
+          <span className="footer-sep">·</span>
+          <a
+            href="https://github.com/kackey621/Design-Docs-Sample"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+        <a
+          href="https://www.netlify.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-netlify"
+        >
           This site is powered by Netlify
         </a>
       </footer>
