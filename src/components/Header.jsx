@@ -11,19 +11,6 @@ export default function Header({ lang }) {
             {lang === 'ja' ? '設計書ジェネレーター' : 'Design Doc Generator'}
           </span>
         </div>
-        <a
-          href="https://www.netlify.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="netlify-badge"
-          title="This site is powered by Netlify"
-        >
-          <img
-            src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
-            alt="Powered by Netlify"
-            height="20"
-          />
-        </a>
       </div>
     </header>
   )
