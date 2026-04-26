@@ -1,15 +1,23 @@
 {
   "name": "design-docs",
   "version": "1.0.0",
-  "description": "Design document templates for the **Recerdo** service — a social media platform (Viejo App) for reconnecting with old friends and close-knit groups.",
-  "main": "index.js",
+  "description": "Design document generator — bilingual (EN/JA) templates for Microservice and Clean Architecture design docs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "docx": "^9.6.1",
+    "marked": "^13.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "docx": "^9.6.1"
-  }
+  "author": "kackey621",
+  "license": "MIT"
 }
