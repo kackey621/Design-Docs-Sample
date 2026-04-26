@@ -1,3 +1,5 @@
+[![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://www.netlify.com)
+
 # [Project Name] 設計ドキュメント
 
 [Project Name] サービス（旧友・仲良かったグループとの再接続を目的としたSNSプラットフォーム「Viejoアプリ」）の設計ドキュメントテンプレート集です。
@@ -46,4 +48,4 @@
 
 ## ライセンス
 
-Willen Federation 内部利用限定
+このプロジェクトは MIT ライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルを参照してください。

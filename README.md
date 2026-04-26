@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f965f47f-947c-4ea0-9f9a-042bc2462369/deploy-status)](https://app.netlify.com/projects/design-doc-generator/deploys)
+[![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://www.netlify.com)
 
 # Design Docs
 
@@ -55,4 +56,4 @@ Design document templates for the service — a social media platform (Viejo App
 
 ## License
 
-Internal use only — Willen Federation.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
