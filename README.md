@@ -56,3 +56,7 @@ Design document templates for the service — a social media platform (Viejo App
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+This site is hosted and deployed by [Netlify](https://www.netlify.com).
