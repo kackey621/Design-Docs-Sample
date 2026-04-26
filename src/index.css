@@ -48,7 +48,6 @@ body {
 }
 .header-logo { display: flex; align-items: center; gap: 10px; }
 .header-title { font-size: 1.05rem; font-weight: 700; color: var(--clr-primary); }
-.netlify-badge img { display: block; }
 
 .app-main {
   flex: 1;
